@@ -1,0 +1,1250 @@
+[
+  {
+    "id": 1,
+    "name": "The Fool",
+    "arcana": "Major",
+    "image": "the_fool.jpg",
+    "meaning": "The Fool represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Fool indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 2,
+    "name": "The Magician",
+    "arcana": "Major",
+    "image": "the_magician.jpg",
+    "meaning": "The Magician represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Magician indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 3,
+    "name": "The High Priestess",
+    "arcana": "Major",
+    "image": "the_high_priestess.jpg",
+    "meaning": "The High Priestess represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The High Priestess indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 4,
+    "name": "The Empress",
+    "arcana": "Major",
+    "image": "the_empress.jpg",
+    "meaning": "The Empress represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Empress indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 5,
+    "name": "The Emperor",
+    "arcana": "Major",
+    "image": "the_emperor.jpg",
+    "meaning": "The Emperor represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Emperor indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 6,
+    "name": "The Hierophant",
+    "arcana": "Major",
+    "image": "the_hierophant.jpg",
+    "meaning": "The Hierophant represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Hierophant indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 7,
+    "name": "The Lovers",
+    "arcana": "Major",
+    "image": "the_lovers.jpg",
+    "meaning": "The Lovers represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Lovers indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 8,
+    "name": "The Chariot",
+    "arcana": "Major",
+    "image": "the_chariot.jpg",
+    "meaning": "The Chariot represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Chariot indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Strength",
+    "arcana": "Major",
+    "image": "strength.jpg",
+    "meaning": "Strength represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed Strength indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 10,
+    "name": "The Hermit",
+    "arcana": "Major",
+    "image": "the_hermit.jpg",
+    "meaning": "The Hermit represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Hermit indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Wheel of Fortune",
+    "arcana": "Major",
+    "image": "wheel_of_fortune.jpg",
+    "meaning": "Wheel of Fortune represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed Wheel of Fortune indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Justice",
+    "arcana": "Major",
+    "image": "justice.jpg",
+    "meaning": "Justice represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed Justice indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 13,
+    "name": "The Hanged Man",
+    "arcana": "Major",
+    "image": "the_hanged_man.jpg",
+    "meaning": "The Hanged Man represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Hanged Man indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 14,
+    "name": "Death",
+    "arcana": "Major",
+    "image": "death.jpg",
+    "meaning": "Death represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed Death indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Temperance",
+    "arcana": "Major",
+    "image": "temperance.jpg",
+    "meaning": "Temperance represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed Temperance indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 16,
+    "name": "The Devil",
+    "arcana": "Major",
+    "image": "the_devil.jpg",
+    "meaning": "The Devil represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Devil indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 17,
+    "name": "The Tower",
+    "arcana": "Major",
+    "image": "the_tower.jpg",
+    "meaning": "The Tower represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Tower indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 18,
+    "name": "The Star",
+    "arcana": "Major",
+    "image": "the_star.jpg",
+    "meaning": "The Star represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Star indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 19,
+    "name": "The Moon",
+    "arcana": "Major",
+    "image": "the_moon.jpg",
+    "meaning": "The Moon represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Moon indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 20,
+    "name": "The Sun",
+    "arcana": "Major",
+    "image": "the_sun.jpg",
+    "meaning": "The Sun represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The Sun indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 21,
+    "name": "Judgement",
+    "arcana": "Major",
+    "image": "judgement.jpg",
+    "meaning": "Judgement represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed Judgement indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 22,
+    "name": "The World",
+    "arcana": "Major",
+    "image": "the_world.jpg",
+    "meaning": "The World represents growth, wisdom and transformation.",
+    "love": "Encourages emotional balance.",
+    "career": "Opportunities for progress.",
+    "health": "Focus on wellbeing.",
+    "reversed": {
+      "meaning": "Reversed The World indicates delays or inner challenges.",
+      "love": "Resolve misunderstandings.",
+      "career": "Review plans carefully.",
+      "health": "Reduce stress."
+    }
+  },
+  {
+    "id": 23,
+    "name": "Ace of Cups",
+    "arcana": "Minor",
+    "image": "ace_of_cups.jpg",
+    "meaning": "Ace of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ace of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 24,
+    "name": "Two of Cups",
+    "arcana": "Minor",
+    "image": "two_of_cups.jpg",
+    "meaning": "Two of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Two of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 25,
+    "name": "Three of Cups",
+    "arcana": "Minor",
+    "image": "three_of_cups.jpg",
+    "meaning": "Three of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Three of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 26,
+    "name": "Four of Cups",
+    "arcana": "Minor",
+    "image": "four_of_cups.jpg",
+    "meaning": "Four of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Four of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 27,
+    "name": "Five of Cups",
+    "arcana": "Minor",
+    "image": "five_of_cups.jpg",
+    "meaning": "Five of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Five of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 28,
+    "name": "Six of Cups",
+    "arcana": "Minor",
+    "image": "six_of_cups.jpg",
+    "meaning": "Six of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Six of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 29,
+    "name": "Seven of Cups",
+    "arcana": "Minor",
+    "image": "seven_of_cups.jpg",
+    "meaning": "Seven of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Seven of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 30,
+    "name": "Eight of Cups",
+    "arcana": "Minor",
+    "image": "eight_of_cups.jpg",
+    "meaning": "Eight of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Eight of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 31,
+    "name": "Nine of Cups",
+    "arcana": "Minor",
+    "image": "nine_of_cups.jpg",
+    "meaning": "Nine of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Nine of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 32,
+    "name": "Ten of Cups",
+    "arcana": "Minor",
+    "image": "ten_of_cups.jpg",
+    "meaning": "Ten of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ten of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 33,
+    "name": "Page of Cups",
+    "arcana": "Minor",
+    "image": "page_of_cups.jpg",
+    "meaning": "Page of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Page of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 34,
+    "name": "Knight of Cups",
+    "arcana": "Minor",
+    "image": "knight_of_cups.jpg",
+    "meaning": "Knight of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Knight of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 35,
+    "name": "Queen of Cups",
+    "arcana": "Minor",
+    "image": "queen_of_cups.jpg",
+    "meaning": "Queen of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Queen of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 36,
+    "name": "King of Cups",
+    "arcana": "Minor",
+    "image": "king_of_cups.jpg",
+    "meaning": "King of Cups highlights lessons related to cups.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed King of Cups suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 37,
+    "name": "Ace of Pentacles",
+    "arcana": "Minor",
+    "image": "ace_of_pentacles.jpg",
+    "meaning": "Ace of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ace of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 38,
+    "name": "Two of Pentacles",
+    "arcana": "Minor",
+    "image": "two_of_pentacles.jpg",
+    "meaning": "Two of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Two of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 39,
+    "name": "Three of Pentacles",
+    "arcana": "Minor",
+    "image": "three_of_pentacles.jpg",
+    "meaning": "Three of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Three of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 40,
+    "name": "Four of Pentacles",
+    "arcana": "Minor",
+    "image": "four_of_pentacles.jpg",
+    "meaning": "Four of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Four of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 41,
+    "name": "Five of Pentacles",
+    "arcana": "Minor",
+    "image": "five_of_pentacles.jpg",
+    "meaning": "Five of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Five of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 42,
+    "name": "Six of Pentacles",
+    "arcana": "Minor",
+    "image": "six_of_pentacles.jpg",
+    "meaning": "Six of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Six of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 43,
+    "name": "Seven of Pentacles",
+    "arcana": "Minor",
+    "image": "seven_of_pentacles.jpg",
+    "meaning": "Seven of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Seven of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 44,
+    "name": "Eight of Pentacles",
+    "arcana": "Minor",
+    "image": "eight_of_pentacles.jpg",
+    "meaning": "Eight of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Eight of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 45,
+    "name": "Nine of Pentacles",
+    "arcana": "Minor",
+    "image": "nine_of_pentacles.jpg",
+    "meaning": "Nine of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Nine of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 46,
+    "name": "Ten of Pentacles",
+    "arcana": "Minor",
+    "image": "ten_of_pentacles.jpg",
+    "meaning": "Ten of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ten of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 47,
+    "name": "Page of Pentacles",
+    "arcana": "Minor",
+    "image": "page_of_pentacles.jpg",
+    "meaning": "Page of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Page of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 48,
+    "name": "Knight of Pentacles",
+    "arcana": "Minor",
+    "image": "knight_of_pentacles.jpg",
+    "meaning": "Knight of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Knight of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 49,
+    "name": "Queen of Pentacles",
+    "arcana": "Minor",
+    "image": "queen_of_pentacles.jpg",
+    "meaning": "Queen of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Queen of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 50,
+    "name": "King of Pentacles",
+    "arcana": "Minor",
+    "image": "king_of_pentacles.jpg",
+    "meaning": "King of Pentacles highlights lessons related to pentacles.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed King of Pentacles suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 51,
+    "name": "Ace of Swords",
+    "arcana": "Minor",
+    "image": "ace_of_swords.jpg",
+    "meaning": "Ace of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ace of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 52,
+    "name": "Two of Swords",
+    "arcana": "Minor",
+    "image": "two_of_swords.jpg",
+    "meaning": "Two of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Two of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 53,
+    "name": "Three of Swords",
+    "arcana": "Minor",
+    "image": "three_of_swords.jpg",
+    "meaning": "Three of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Three of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 54,
+    "name": "Four of Swords",
+    "arcana": "Minor",
+    "image": "four_of_swords.jpg",
+    "meaning": "Four of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Four of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 55,
+    "name": "Five of Swords",
+    "arcana": "Minor",
+    "image": "five_of_swords.jpg",
+    "meaning": "Five of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Five of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 56,
+    "name": "Six of Swords",
+    "arcana": "Minor",
+    "image": "six_of_swords.jpg",
+    "meaning": "Six of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Six of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 57,
+    "name": "Seven of Swords",
+    "arcana": "Minor",
+    "image": "seven_of_swords.jpg",
+    "meaning": "Seven of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Seven of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 58,
+    "name": "Eight of Swords",
+    "arcana": "Minor",
+    "image": "eight_of_swords.jpg",
+    "meaning": "Eight of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Eight of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 59,
+    "name": "Nine of Swords",
+    "arcana": "Minor",
+    "image": "nine_of_swords.jpg",
+    "meaning": "Nine of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Nine of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 60,
+    "name": "Ten of Swords",
+    "arcana": "Minor",
+    "image": "ten_of_swords.jpg",
+    "meaning": "Ten of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ten of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 61,
+    "name": "Page of Swords",
+    "arcana": "Minor",
+    "image": "page_of_swords.jpg",
+    "meaning": "Page of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Page of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 62,
+    "name": "Knight of Swords",
+    "arcana": "Minor",
+    "image": "knight_of_swords.jpg",
+    "meaning": "Knight of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Knight of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 63,
+    "name": "Queen of Swords",
+    "arcana": "Minor",
+    "image": "queen_of_swords.jpg",
+    "meaning": "Queen of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Queen of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 64,
+    "name": "King of Swords",
+    "arcana": "Minor",
+    "image": "king_of_swords.jpg",
+    "meaning": "King of Swords highlights lessons related to swords.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed King of Swords suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 65,
+    "name": "Ace of Wands",
+    "arcana": "Minor",
+    "image": "ace_of_wands.jpg",
+    "meaning": "Ace of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ace of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 66,
+    "name": "Two of Wands",
+    "arcana": "Minor",
+    "image": "two_of_wands.jpg",
+    "meaning": "Two of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Two of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 67,
+    "name": "Three of Wands",
+    "arcana": "Minor",
+    "image": "three_of_wands.jpg",
+    "meaning": "Three of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Three of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 68,
+    "name": "Four of Wands",
+    "arcana": "Minor",
+    "image": "four_of_wands.jpg",
+    "meaning": "Four of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Four of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 69,
+    "name": "Five of Wands",
+    "arcana": "Minor",
+    "image": "five_of_wands.jpg",
+    "meaning": "Five of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Five of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 70,
+    "name": "Six of Wands",
+    "arcana": "Minor",
+    "image": "six_of_wands.jpg",
+    "meaning": "Six of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Six of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 71,
+    "name": "Seven of Wands",
+    "arcana": "Minor",
+    "image": "seven_of_wands.jpg",
+    "meaning": "Seven of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Seven of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 72,
+    "name": "Eight of Wands",
+    "arcana": "Minor",
+    "image": "eight_of_wands.jpg",
+    "meaning": "Eight of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Eight of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 73,
+    "name": "Nine of Wands",
+    "arcana": "Minor",
+    "image": "nine_of_wands.jpg",
+    "meaning": "Nine of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Nine of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 74,
+    "name": "Ten of Wands",
+    "arcana": "Minor",
+    "image": "ten_of_wands.jpg",
+    "meaning": "Ten of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Ten of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 75,
+    "name": "Page of Wands",
+    "arcana": "Minor",
+    "image": "page_of_wands.jpg",
+    "meaning": "Page of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Page of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 76,
+    "name": "Knight of Wands",
+    "arcana": "Minor",
+    "image": "knight_of_wands.jpg",
+    "meaning": "Knight of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Knight of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 77,
+    "name": "Queen of Wands",
+    "arcana": "Minor",
+    "image": "queen_of_wands.jpg",
+    "meaning": "Queen of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed Queen of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  },
+  {
+    "id": 78,
+    "name": "King of Wands",
+    "arcana": "Minor",
+    "image": "king_of_wands.jpg",
+    "meaning": "King of Wands highlights lessons related to wands.",
+    "love": "Communicate openly.",
+    "career": "Be consistent.",
+    "health": "Maintain healthy habits.",
+    "reversed": {
+      "meaning": "Reversed King of Wands suggests imbalance.",
+      "love": "Avoid assumptions.",
+      "career": "Think before acting.",
+      "health": "Take adequate rest."
+    }
+  }
+]
