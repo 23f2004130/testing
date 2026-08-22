@@ -1,7 +1,10 @@
-﻿import axios from "axios";
+import axios from "axios";
+
+export const API_BASE_URL =
+    import.meta.env.VITE_API_URL || "https://palmistry-tarot-backend-43y2.onrender.com";
 
 const api = axios.create({
-    baseURL: "http://127.0.0.1:8000",
+    baseURL: API_BASE_URL,
 });
 
 api.interceptors.request.use((config) => {

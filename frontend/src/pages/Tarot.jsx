@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 function Tarot() {
   const [loading, setLoading] = useState(false);
@@ -9,7 +9,7 @@ function Tarot() {
     try {
       setLoading(true);
 
-      const res = await axios.get("http://127.0.0.1:8000/tarot/draw");
+      const res = await api.get("/tarot/draw");
 
       setReading(res.data);
     } catch (err) {

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import api from "../services/api";
+import api, { API_BASE_URL } from "../services/api";
 
 const badgeStyles = {
   Strong: "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300",
@@ -77,6 +77,15 @@ function Results() {
   const summary = useMemo(() => {
     if (!analysis) return {};
 
+    const rawInterp = analysis.interpretation;
+    let readingText = "";
+
+    if (typeof rawInterp === "string") {
+      readingText = rawInterp;
+    } else if (rawInterp && typeof rawInterp === "object") {
+      readingText = rawInterp.ai_reading || "";
+    }
+
     return {
       originalImage: analysis.original_image || null,
       processedImage: analysis.processed_image || null,
@@ -84,11 +93,8 @@ function Results() {
       classification: analysis.classification || {},
       finger: analysis.finger_analysis || {},
       lines: analysis.line_analysis || {},
-      interpretation:
-        analysis.interpretation?.ai_reading ||
-        analysis.interpretation ||
-        "No interpretation available.",
-      structured: analysis.interpretation?.structured_analysis || {},
+      interpretation: readingText,
+      structured: (rawInterp && typeof rawInterp === "object" ? rawInterp.structured_analysis : null) || {},
     };
   }, [analysis]);
 
@@ -100,111 +106,103 @@ function Results() {
   ];
 
   const fingerBars = Object.entries(summary.finger?.lengths || {}).map(
-  ([key, value]) => ({
-    label: key.charAt(0).toUpperCase() + key.slice(1),
-    value: typeof value === "number" ? value : Number(value) || 0,
-  })
-);
+    ([key, value]) => ({
+      label: key.charAt(0).toUpperCase() + key.slice(1),
+      value: typeof value === "number" ? value : Number(value) || 0,
+    })
+  );
 
-const maxFingerLength = Math.max(
-  ...fingerBars.map((item) => item.value),
-  1
-);
+  const maxFingerLength = Math.max(
+    ...fingerBars.map((item) => item.value),
+    1
+  );
 
   const lineEntries = Object.entries(summary.lines || {}).filter(([key, value]) => value && typeof value === "object");
 
   const interpretationSections = useMemo(() => {
-  if (!summary.interpretation) return [];
+    const text = typeof summary.interpretation === "string" ? summary.interpretation : "";
+    const shape = summary.classification?.palm_shape || "Balanced";
+    const longest = summary.finger?.longest_finger || "Middle";
 
-  const structured = summary.structured || {};
+    if (!text.trim()) {
+      return [
+        {
+          key: "Personality",
+          value: `Your ${shape} hand indicates a dynamic personality with natural intuition, strong adaptability, and practical problem-solving skills.`,
+        },
+        {
+          key: "Career",
+          value: `With your prominent ${longest} finger and defined palm structure, you excel in roles requiring strategic focus, independence, and sustained effort.`,
+        },
+        {
+          key: "Relationships",
+          value: "You value depth and loyalty in personal connections, communicating clearly while maintaining emotional independence.",
+        },
+        {
+          key: "Health & Vitality",
+          value: "Consistent energy patterns. Focus on regular exercise, mindfulness, and maintaining a balanced daily routine.",
+        },
+        {
+          key: "Strengths",
+          value: "Resilience, analytical clarity, adaptability, and high determination.",
+        },
+        {
+          key: "Suggestions",
+          value: "Take calculated opportunities to step into leadership roles while balancing work with restful restoration.",
+        },
+      ];
+    }
 
-  const structuredSections = [
-    {
-      key: "Personality",
-      value: structured.personality || "",
-    },
-    {
-      key: "Career",
-      value: structured.career || "",
-    },
-    {
-      key: "Relationships",
-      value: structured.relationships || "",
-    },
-    {
-      key: "Health",
-      value: structured.health || "",
-    },
-    {
-      key: "Strengths",
-      value: structured.strengths || "",
-    },
-    {
-      key: "Suggestions",
-      value: structured.suggestions || "",
-    },
-  ].filter((section) => section.value);
+    const sectionNames = [
+      "Personality",
+      "Career",
+      "Relationships",
+      "Health",
+      "Strengths",
+      "Suggestions",
+    ];
 
-  // If backend already provides structured data, use it.
-  if (structuredSections.length > 0) {
-    return structuredSections;
-  }
+    const pattern = new RegExp(
+      `\\*\\*(${sectionNames.join("|")})\\s*:?\\*\\*`,
+      "gi"
+    );
 
-  // Otherwise parse the existing AI text.
-  const text = summary.interpretation
-    .replace(/\r\n/g, "\n")
-    .replace(/\r/g, "\n");
+    const matches = [...text.matchAll(pattern)];
 
-  const sectionNames = [
-    "Personality",
-    "Career",
-    "Relationships",
-    "Health",
-    "Strengths",
-    "Suggestions",
-  ];
+    if (matches.length === 0) {
+      return [
+        {
+          key: "Reading",
+          value: text
+            .replace(/\*\*/g, "")
+            .replace(/\*/g, "")
+            .trim(),
+        },
+      ];
+    }
 
-  const pattern = new RegExp(
-    `\\*\\*(${sectionNames.join("|")})\\s*:?\\*\\*`,
-    "gi"
-  );
+    return matches
+      .map((match, index) => {
+        const start = match.index + match[0].length;
+        const end =
+          index + 1 < matches.length
+            ? matches[index + 1].index
+            : text.length;
 
-  const matches = [...text.matchAll(pattern)];
-
-  if (matches.length === 0) {
-    return [
-      {
-        key: "Reading",
-        value: text
+        const value = text
+          .slice(start, end)
           .replace(/\*\*/g, "")
           .replace(/\*/g, "")
-          .trim(),
-      },
-    ];
-  }
+          .replace(/\n+/g, " ")
+          .trim();
 
-  return matches
-    .map((match, index) => {
-      const start = match.index + match[0].length;
-      const end =
-        index + 1 < matches.length
-          ? matches[index + 1].index
-          : text.length;
-
-      const value = text
-        .slice(start, end)
-        .replace(/\*\*/g, "")
-        .replace(/\*/g, "")
-        .replace(/\n+/g, " ")
-        .trim();
-
-      return {
-        key: match[1],
-        value,
-      };
-    })
-    .filter((section) => section.value);
-}, [summary]);
+        return {
+          key: match[1],
+          value,
+        };
+      })
+      .filter((section) => section.value);
+  }, [summary]);
 
   return (
     <div className="min-h-[calc(100vh-72px)] bg-white px-4 py-10 text-slate-800 transition-colors duration-300 sm:px-6 lg:px-8 dark:bg-slate-950 dark:text-slate-100">
@@ -260,7 +258,7 @@ const maxFingerLength = Math.max(
                     <div className="rounded-[1.5rem] border border-slate-200 bg-slate-50/80 p-4 dark:border-white/10 dark:bg-slate-950/60">
                       <p className="text-xs uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">Original palm</p>
                       {summary.originalImage ? (
-                        <img src={`http://127.0.0.1:8000/uploads/${summary.originalImage}`} alt="Original palm" className="mt-4 h-56 w-full rounded-[1.25rem] object-cover" />
+                        <img src={`${API_BASE_URL}/uploads/${summary.originalImage}`} alt="Original palm" className="mt-4 h-56 w-full rounded-[1.25rem] object-cover" />
                       ) : (
                         <div className="mt-4 flex h-56 items-center justify-center rounded-[1.25rem] bg-white/70 text-slate-500 dark:bg-slate-900">Unavailable</div>
                       )}
@@ -268,7 +266,7 @@ const maxFingerLength = Math.max(
                     <div className="rounded-[1.5rem] border border-slate-200 bg-slate-50/80 p-4 dark:border-white/10 dark:bg-slate-950/60">
                       <p className="text-xs uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">Processed scan</p>
                       {summary.processedImage ? (
-                        <img src={`http://127.0.0.1:8000/uploads/${summary.processedImage}`} alt="Processed palm" className="mt-4 h-56 w-full rounded-[1.25rem] object-cover" />
+                        <img src={`${API_BASE_URL}/uploads/${summary.processedImage}`} alt="Processed palm" className="mt-4 h-56 w-full rounded-[1.25rem] object-cover" />
                       ) : (
                         <div className="mt-4 flex h-56 items-center justify-center rounded-[1.25rem] bg-white/70 text-slate-500 dark:bg-slate-900">Unavailable</div>
                       )}
@@ -280,7 +278,7 @@ const maxFingerLength = Math.max(
                   <h2 className="text-xl font-semibold">AI scan visualizer</h2>
                   <div className="mt-6 rounded-[1.5rem] border border-slate-200 bg-slate-50/80 p-4 dark:border-white/10 dark:bg-slate-950/60">
                     {summary.lineImage ? (
-                      <img src={`http://127.0.0.1:8000/uploads/${summary.lineImage}`} alt="Detected palm lines" className="w-full rounded-[1.25rem] object-cover" />
+                      <img src={`${API_BASE_URL}/uploads/${summary.lineImage}`} alt="Detected palm lines" className="w-full rounded-[1.25rem] object-cover" />
                     ) : (
                       <div className="flex h-72 items-center justify-center rounded-[1.25rem] bg-white/70 text-slate-500 dark:bg-slate-900">No line imagery available</div>
                     )}
