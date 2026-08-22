@@ -5,27 +5,42 @@ import os
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL")
-if not DATABASE_URL:
-    DATABASE_URL = "sqlite:///./palmistry_tarot.db"
-elif DATABASE_URL.startswith("postgres://"):
-    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+Base = declarative_base()
 
+def get_engine():
+    db_url = os.getenv("DATABASE_URL")
+    # If unconfigured, empty, or pointing to unreachable local postgres
+    if not db_url or "localhost:5432" in db_url or "127.0.0.1:5432" in db_url:
+        sqlite_path = "/tmp/palmistry_tarot.db" if os.path.exists("/tmp") else os.path.join(os.path.dirname(__file__), "..", "..", "palmistry_tarot.db")
+        return create_engine(f"sqlite:///{sqlite_path}", connect_args={"check_same_thread": False})
+
+    if db_url.startswith("postgres://"):
+        db_url = db_url.replace("postgres://", "postgresql://", 1)
+
+    try:
+        eng = create_engine(db_url, pool_pre_ping=True)
+        with eng.connect() as conn:
+            pass
+        return eng
+    except Exception:
+        sqlite_path = "/tmp/palmistry_tarot.db" if os.path.exists("/tmp") else os.path.join(os.path.dirname(__file__), "..", "..", "palmistry_tarot.db")
+        return create_engine(f"sqlite:///{sqlite_path}", connect_args={"check_same_thread": False})
+
+engine = get_engine()
+
+# Import models to ensure they are registered with Base metadata
+from app.models.user import User
+from app.models.reading import Reading
 try:
-    if DATABASE_URL.startswith("sqlite"):
-        engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
-    else:
-        engine = create_engine(DATABASE_URL, pool_pre_ping=True)
+    Base.metadata.create_all(bind=engine)
 except Exception:
-    engine = create_engine("sqlite:///./palmistry_tarot.db", connect_args={"check_same_thread": False})
+    pass
 
 SessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
     bind=engine
 )
-
-Base = declarative_base()
 
 def get_db():
     db = SessionLocal()
