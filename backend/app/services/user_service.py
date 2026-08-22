@@ -16,7 +16,8 @@ def create_user(db: Session, user):
     db_user = User(
         full_name=user.full_name,
         email=user.email,
-        password=hashed
+        password=hashed,
+        role="user"
     )
 
     try:
